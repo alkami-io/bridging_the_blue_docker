@@ -14,5 +14,4 @@
 //= require turbolinks
 //= require jquery3
 //= require jquery_ujs
-//= require jquery-ui
 //= require javascripts/haswell
