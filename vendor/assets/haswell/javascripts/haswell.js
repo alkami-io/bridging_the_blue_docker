@@ -1,4 +1,4 @@
-//= require javascripts/bootstrap.min
+//= require javascripts/bootstrap
 //= require javascripts/moment
 //= require javascripts/bootstrap-datetimepicker.min
 //= require javascripts/contact-form-validation
@@ -25,7 +25,6 @@
 //= require javascripts/min-main
 //= require javascripts/modernizr.custom
 //= require javascripts/modernizr
-//= require javascripts/npm
 //= require javascripts/owl.carousel.min
 //= require javascripts/placeholder
 //= require javascripts/side-menu
