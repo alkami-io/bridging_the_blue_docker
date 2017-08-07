@@ -22,6 +22,9 @@ gem 'uglifier', '>= 1.3.0'
 # Jquery: Behavior
 gem 'jquery-rails'
 
+# Jquery UI: Behavior
+gem 'jquery-ui-rails'
+
 # FontAwesome: Font Icons
 gem "font-awesome-rails"
 

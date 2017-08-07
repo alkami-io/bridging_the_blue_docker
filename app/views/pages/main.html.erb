@@ -27,32 +27,8 @@
   <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
 
-  <!-- CSS -->
-
-  <!-- BOOTSTRAP -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-
   <!-- GOOGLE FONT -->
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
-
-  <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->
-  <link rel="stylesheet" href="css/icons-fonts.css" >
-
-  <!-- CSS THEME -->
-  <link rel="stylesheet" href="css/style.css" >
-
-  <!-- ANIMATE -->
-  <link rel='stylesheet' href="css/animate.min.css">
-
-  <!-- IE Warning CSS -->
-  <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
-  <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
-
-  <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->
-
-  <!-- CSS end -->
-
-  <!-- JS begin some js files in bottom of file-->
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -61,10 +37,8 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <!-- Modernizr -->
-  <!-- <script src="js/modernizr.js"></script> -->
-
 </head>
+
 <body>
 
 <!-- LOADER -->
@@ -137,7 +111,7 @@
             <div class="logo-container-2">
               <div class="logo-2">
                 <a href="index.html" class="clearfix">
-                  <img src="images/logo.png" class="logo-img" alt="Logo">
+                  <%= image_tag 'images/logo.png', class: 'logo-img' %>
                 </a>
               </div>
             </div>
@@ -547,7 +521,7 @@
                             <div class="col-md-6 menu-map-container hide-max-960 ">
                               <!-- Google Maps -->
                               <div class="google-map-container">
-                                <img src="images/map-line.png" alt="alt">
+                                <%= image_tag 'images/map-line.png' %>
                               </div>
                               <!-- Google Maps / End -->
                             </div>
@@ -588,7 +562,8 @@
 
     <!-- ADS -->
     <div class="text-center grey-light-bg header-big-offset">
-      <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel"><img class="" src="images/ads-place-width.jpg" alt="img"></a>
+      <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">
+        <img class="" src="images/ads-place-width.jpg" alt="img"></a>
     </div>
 
     <!-- COTENT CONTAINER -->
@@ -607,7 +582,7 @@
               <!-- ITEM -->
               <div class="item m-0">
                 <div class="mb-30">
-                  <img alt="about us" src="images/blog/post-wide-5.jpg">
+                  <%= image_tag 'images/blog/post-wide-1.jpg' %>
                 </div>
                 <div class="post-prev-title">
                   <h3><a href="blog-single-sidebar-right.html">TIME FOR MINIMALISM</a></h3>
@@ -1564,40 +1539,6 @@
 
   </div><!-- End BG -->
 </div><!-- End wrap -->
-
-<!-- JS begin -->
-
-<!-- jQuery  -->
-<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-
-<!-- MAGNIFIC POPUP -->
-<script src='js/jquery.magnific-popup.min.js'></script>
-
-<!-- PORTFOLIO SCRIPTS -->
-<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-
-<!-- COUNTER -->
-<script type="text/javascript" src="js/jquery.countTo.js"></script>
-
-<!-- APPEAR -->
-<script type="text/javascript" src="js/jquery.appear.js"></script>
-
-<!-- FLICKR WIDGET -->
-<script type="text/javascript" src="js/jflickrfeed.min.js"></script>
-
-<!-- JQUERY TWEETS -->
-<script src="js/twitter/jquery.tweet.js"></script>
-
-<!-- OWL CAROUSEL -->
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-
-<!-- MAIN SCRIPT -->
-<script src="js/main.js"></script>
-
-<!-- JS end -->
-
 </body>
+
 </html>

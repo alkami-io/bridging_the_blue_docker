@@ -30,3 +30,4 @@
 //= require javascripts/side-menu
 //= require javascripts/text-rotator
 //= require javascripts/wow.min
+//= require javascripts/twitter/jquery.tweet
