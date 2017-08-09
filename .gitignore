@@ -21,3 +21,5 @@
 # RubyMine Ignores
 .idea
 
+# Haswell Template
+haswell_template

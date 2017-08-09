@@ -27,5 +27,9 @@ module BridgingTheBlue
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.assets.paths << Rails.root.join('app', 'assets', 'fonts', 'vendor')
+    config.assets.precompile += %w(haswell.css.scss haswell.js haswell/*)
+    config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
